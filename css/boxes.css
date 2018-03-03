@@ -1,0 +1,43 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.dot {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background: black;
+}
+
+.graph-container {
+    width: 512px;
+    height: 512px;
+    position: absolute;
+    left: 100px;
+    border: solid 1px black;
+}
+
+.line {
+    position: absolute;
+    height:0;
+    left: 0;
+    top: 0;
+    border-top: solid 1px red;
+    z-index: 10;
+    width: 100%;
+    -webkit-transition: top 0.1s linear;
+    -moz-transition: top 0.1s linear;
+    -ms-transition: top 0.1s linear;
+    -o-transition: top 0.1s linear;
+    transition: top 0.1s linear;
+}
