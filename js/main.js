@@ -16,7 +16,7 @@ class Point {
 }
 
 $(document).ready(function () {
-    let bez = new Bezier([0, 250], [0, 0], [250, 500], [250, 250]);
+    let bez = new Bezier([0, 250], [0, 0], [250, 500], [350, 250]);
 
     let parent = $(".graph-container");
     let density = 50;
